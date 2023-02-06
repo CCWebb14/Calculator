@@ -22,5 +22,3 @@ const operate = (num1, operator, num2) => {
 
   return 'ERROR';
 };
-
-console.log(operate(1, '+', 2));
