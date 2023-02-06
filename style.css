@@ -34,9 +34,9 @@ body {
 .display {
     flex: 1 0 80%;
     height: 20%;
-    padding-left: 5px;
-    padding-right: 5px;
-    background-color: #42573a;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #34422d;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -46,10 +46,8 @@ body {
 .unit-box {
     flex: 1 0 0;
     height: 90%;
-    /* margin: 2px; */
     background-color: #34422d;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
