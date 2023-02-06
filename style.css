@@ -51,7 +51,7 @@ body {
     align-items: center;
 }
 
-.button {
+button {
     margin: 10px;
     background-color: grey;
     flex: 1 0 12%;
