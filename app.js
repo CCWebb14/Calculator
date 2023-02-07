@@ -22,3 +22,13 @@ const operate = (num1, operator, num2) => {
 
   return 'ERROR';
 };
+
+let displayValue = '';
+
+const buttons = document.querySelectorAll('button');
+
+buttons.forEach((button) =>
+  button.addEventListener('click', () => {
+    displayValue += button.innerHTML;
+  })
+);
