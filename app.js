@@ -26,9 +26,11 @@ const operate = (num1, operator, num2) => {
 let displayValue = '';
 
 const buttons = document.querySelectorAll('button');
+const unitBox = document.querySelector('.unit-box');
 
 buttons.forEach((button) =>
   button.addEventListener('click', () => {
     displayValue += button.innerHTML;
+    unitBox.innerHTML = displayValue;
   })
 );
