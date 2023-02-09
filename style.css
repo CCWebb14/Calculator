@@ -53,10 +53,25 @@ body {
 
 button {
     margin: 10px;
-    background-color: grey;
     flex: 1 0 12%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50px;
+}
+
+.entry-button {
+    background-color: grey;
+}
+
+.clear-button {
+    background-color: red;
+  }
+
+.equals-button {
+    background-color: blue;
+}
+
+.ANS-button {
+    background-color: green;
 }
